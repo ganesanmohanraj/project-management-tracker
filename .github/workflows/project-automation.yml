@@ -1,0 +1,20 @@
+name: Project Automation
+
+on:
+  issues:
+    types: [opened, edited]
+  pull_request:
+    types: [opened, closed]
+
+jobs:
+  update-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update project board
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const projectId = 123456; // Replace with your project ID
+            const issueId = context.payload.issue.node_id;
+            const status = context.payload.issue.labels.map(label => label.name);
+            // Automate moving cards based on labels like "To Do", "In Progress", etc.

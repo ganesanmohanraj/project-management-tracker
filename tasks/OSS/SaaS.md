@@ -5,7 +5,7 @@
 - **Assigned To:** Self
 - **Priority:** High
 - **Status:** In Progress
-- **Next Steps:** 
+- **Next Steps:**
   1. Outline microservices integrations.
   2. Include encryption/decryption mechanisms.
 

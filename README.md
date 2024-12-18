@@ -8,5 +8,7 @@ This repository manages tasks and statuses for ongoing projects. Use the `tasks/
 - Use the `tasks/` directory for detailed task descriptions.
 
 ## Active Project Links
-- **OSS SaaS**: [Link to SaaS Tasks](tasks/OSS/SaaS.md)
-- **HMIS Evaluation**: [Link to Evaluation Tasks](tasks/HMIS/Evaluation.md)
+- [OSS SaaS Tasks](tasks/OSS/SaaS.md)
+- [HMIS Evaluation Tasks](tasks/HMIS/Evaluation.md)
+- [MOSIP Tasks](tasks/MOSIP/Tasks.md)
+- [Hackathon Contributions](tasks/other-tasks/Hackathon.md)
